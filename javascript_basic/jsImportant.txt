@@ -1,0 +1,9 @@
+===============================================Dynamic programming language=========================================
+
+A language that requires less rigid coding on the part of the programmer. It typically features "dynamic typing," which gives the programmer more freedom to pass parameters at runtime without having to define them beforehand. A dynamic language may also perform some amount of self checking at runtime, which would normally be done ahead of time in a compilation stage. Although a dynamic language offers runtime flexibility and is generally easier to program, it does not eliminate the programmer's responsibility for understanding the interactions that will take place.
+
+///////////////////////////Dynamic and Non-Dynamic Examples///////////////////////////
+Numerous languages fall into the dynamic category, including JavaScript, VBScript, Lisp, Perl, PHP, Python, Ruby and Smalltalk. Examples of languages that are not dynamic are C/C++, Java, COBOL and FORTRAN. See dynamic, interpreter and JIT compilation.
+
+
+Note --1 All primitive types, except null, can be tested by the typeof operator. typeof null returns "object", so one has to use === null to test for null.
