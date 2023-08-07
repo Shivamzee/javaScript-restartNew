@@ -15,3 +15,4 @@
 
 
 //(3) !=	Not equal to: true if the operands are not equal.
+//Example
