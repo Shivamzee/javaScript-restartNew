@@ -12,3 +12,5 @@ null	denotes a null value	let a = null;
 Symbol	data type whose instances are unique and immutable	let value = Symbol('hello');
 Object	key-value pairs of collection of data	let student = { };
 */
+
+
