@@ -42,3 +42,41 @@ const averagePeopleIncome = 320000.2589;
 // const mArray = [2,14,9,25,4,7];
 // let out = Math.max(...mArray);
 // console.log(out);
+
+//(6) Math.min => returns the minimum value among the given numbers.
+// let findMinNumber = Math.min(12,3,6,27,2,34);
+// console.log(findMinNumber)
+
+// findMinNumber = [9,47,25,1,8];
+// console.log( Math.min(...findMinNumber));
+
+
+//(7) Math.round()=> Returns the number rounded to the nearest integer.
+// console.log(Math.round(4.2));
+// console.log(Math.round(4.5));
+// console.log(Math.round(4.7));
+// console.log(Math.round(-4.3));
+
+
+
+//(8) Math.sqrt()=> returns the squre root of a specified number.
+// console.log(Math.sqrt(729));
+// console.log(Math.sqrt(529));
+// console.log(Math.sqrt(441));
+
+
+//(9) Math.random()=>this function returns a floating-point, pseudo-random number between 0 and 1;
+
+// let  getA_randomNumber = Math.random();
+// // console.log(getA_randomNumber);
+
+// // Example-> Q- Generate a random number between two numbers;
+// let generateRandomNumber = (min,max)=>{
+//     let number = Math.random()*(max-min) + min;
+   
+//     return  number;
+// }; 
+
+
+// let out = generateRandomNumber(10,15);
+// console.log(out.toFixed(2)*100);
