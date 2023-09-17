@@ -107,7 +107,15 @@ let convertBooleanfalseIntoNumber = Number(checkTypeOfBooleanValue);
 
 // Let convert into string..
 let numberToConvertIntoString = 55;
-console.log(numberToConvertIntoString, typeof numberToConvertIntoString); //
+// console.log(numberToConvertIntoString, typeof numberToConvertIntoString); 
 
 let convertNumberIntoString = String(numberToConvertIntoString);
-console.log(convertNumberIntoString, typeof convertNumberIntoString);
+// console.log(convertNumberIntoString, typeof convertNumberIntoString);
+
+
+
+let convertToNumber = 'shivam';
+console.log(typeof convertToNumber);
+ let check =  Number(convertToNumber) ;
+ console.log(check);
+// console.log(typeof check);
